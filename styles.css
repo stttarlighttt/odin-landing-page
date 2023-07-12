@@ -39,26 +39,49 @@ title {
 
 .sec-2 {
     background-color: bisque;
-    padding: 50px 200px 50px 200px;
+    padding: 50px 350px 50px 350px;
     }
 
 .images-sec-2 {
     flex-direction: row;
-    justify-content: center;
-    gap: 30px;
+    justify-content: space-between;
 }
 
 .sec-3 {
-    padding: 0 200px 0 200px;
+    justify-content: center;
+    padding: 50px 350px 50px 350px;
     background-color: lightgray;
 }
 
-
-.in-sec-4 {
-    padding: 0 200px 0 200px;
-    background-color: aqua;
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
 }
 
+.quote-author {
+    flex-direction: row;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+.sec-4 {
+    flex-direction: row;
+    margin: 50px 300px 50px 300px;
+    justify-content: space-between;
+    background-color: aqua;
+    }
+
+.part-1-sec-4 {
+    padding: 50px;
+}
+
+.part-2-sec-4 {
+    padding: 50px;
+    justify-content: center;
+}
 
 .footer {
     align-items: center;
@@ -77,7 +100,7 @@ h1 {
 
 h2 {
     color: white;
-    font-size: 32px;
+    font-size: 36px;
 }
 
 p {
