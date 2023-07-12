@@ -1,0 +1,11 @@
+.header, .sec-1, .footer {
+    background-color: darkslateblue;
+}
+
+.sec-3 {
+    background-color: lightgray;
+}
+
+.in-sec-4 {
+    background-color: aqua;
+}
