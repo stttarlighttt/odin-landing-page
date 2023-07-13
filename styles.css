@@ -1,65 +1,80 @@
-title {
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+ }
+
+ .page-title {
     display: none;
 }
 
-
-* {
+.container {
     display: flex;
-    flex-direction: column;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
+    justify-content: center;
+    width: auto;
+    }
+
+h1 {
+    color: white;
+    font-size: 32px;
 }
 
-
-.header, .sec-1, .footer {
-    background-color: darkslateblue;
+h2 {
+    color: white;
+    font-size: 36px;
 }
 
+p {
+    color: black;
+    font-size: 24px;
+}
+
+img {
+    border-radius: 25px;
+}
 
 .header {
-    flex-direction: row;
-    padding: 0 300px 0 300px;
-    justify-content: space-between;
-}
-
-
-.h-links {
-    flex-direction: row;
+    flex: 1;
+    background-color: darkslateblue;
     justify-content: space-around;
-    width: 300px;
 }
+
+
+.header .h-links {
+    flex: 1;   
+    justify-content: space-around;
+  }
 
 
 .sec-1 {
-    padding: 50px 300px 50px 300px;
-    flex-direction: row;
-    justify-content: space-between;
+    background-color: darkslateblue;
+        justify-content: space-between;
 }
 
 
 .sec-2 {
     background-color: bisque;
+    flex: 1;
     padding: 50px 250px 50px 250px;
     }
 
-.images-sec-2 {
+.sec-2 .images-sec-2 {
     flex-direction: row;
     justify-content: space-between;
 }
 
 .sec-3 {
-    justify-content: center;
+    flex: 1;
     padding: 50px 350px 50px 350px;
     background-color: lightgray;
 }
 
-.quote {
+.sec-3 .quote {
     font-style: italic;
     font-weight: lighter;
     font-size: 36px;
 }
 
-.quote-author {
+.sec-3 .quote-author {
     flex-direction: row;
     justify-content: flex-end;
     font-weight: bold;
@@ -69,6 +84,7 @@ title {
 
 .sec-4 {
     flex-direction: row;
+    flex: 1;
     margin: 50px 300px 50px 300px;
     justify-content: space-between;
     background-color: aqua;
@@ -84,30 +100,13 @@ title {
 }
 
 .footer {
+    background-color: darkslateblue;
+    width: 100%;
     align-items: center;
-}
-
-h1 {
-    color: white;
-    font-size: 32px;
 }
 
 .title-sec-2 {
     flex-direction: row;
     justify-content: center;
     padding: 0 0 50px 0;
-}
-
-h2 {
-    color: white;
-    font-size: 36px;
-}
-
-p {
-    color: black;
-    font-size: 24px;
-}
-
-img {
-    border-radius: 25px;
 }
