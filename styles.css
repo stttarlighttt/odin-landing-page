@@ -39,7 +39,7 @@ title {
 
 .sec-2 {
     background-color: bisque;
-    padding: 50px 350px 50px 350px;
+    padding: 50px 250px 50px 250px;
     }
 
 .images-sec-2 {
@@ -108,6 +108,6 @@ p {
     font-size: 24px;
 }
 
-button {
-    justify-content: flex-end;
+img {
+    border-radius: 25px;
 }
