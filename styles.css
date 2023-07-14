@@ -1,6 +1,7 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
+    box-sizing: border-box;
  }
 
  .page-title {
@@ -37,7 +38,7 @@ img {
     display: flex;
     flex-direction: row;
     background-color: #CD7E59;
-    justify-content: space-around;;
+    justify-content: space-around;
     
 }
 
@@ -50,6 +51,11 @@ img {
     display: flex;
     background-color: #CD7E59;
     justify-content: space-around;
+    padding: 0 350px 50px 350px;
+}
+
+.sec-1-right {
+    flex-direction: column;
 }
 
 .sec-1-minibio  {
@@ -58,10 +64,6 @@ img {
     justify-content: center;
 }
 
-.saiba-mais {
-    display: flex;
-    flex-direction: column;
-}
 
 
 .sec-2 {
